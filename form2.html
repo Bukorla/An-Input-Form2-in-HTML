@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname">
+        <br> <br>
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" id="mname">
+        <br> <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname">
+        <br> <br>
+        <label for="date">Date Of Birth:</label>
+        <input type="date" name="date" id="date">
+        <br> <br>
+        <label for="pnom">Phone Number</label>
+        <input type="tel" name="p-num" id="pnom">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>
+            Social Information
+        </legend>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email">
+        <br> <br>
+        <label for="password">Create Password:</label>
+        <input type="password" name="password" id="password">
+        <br> <br>
+        <label for="">Confirm Password:</label>
+        <input type="password" name="passwordcon" id="passwordcon">
+        <br> <br>
+        <label for="user" title="Name you will be recognized with">User Name:</label>
+        <input type="text" name="user" id="user" title="Name you will be recognized with">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>
+            Other Information
+        </legend>
+       <span>
+        Gender:
+       </span>
+       <br> 
+       <input type="radio" name="gender" id="gender1">
+       <label for="gender1">Male</label>
+       <br> 
+       <input type="radio" name="gender" id="gender2">
+       <label for="gender2">Female</label>
+       <br> 
+       <input type="radio" name="gender" id="gender3">
+       <label for="gender3">Prefare not to say</label> 
+       <br> <br>
+       <span>
+        Preferences:
+       </span>
+       <br>
+       <input type="checkbox" name="preferences" id="preferences1">
+       <label for="preferences1">Maths</label> <br>
+       <input type="checkbox" name="preferences" id="preferences2">
+       <label for="preferences2">English</label> <br>
+       <input type="checkbox" name="prefernces" id="preferences3">
+       <label for="preferences3">Science</label> <br>
+       <input type="checkbox" name="preferences" id="preferences4">
+       <label for="preferences4">Art</label> <br> 
+       <label for="preferences5"> Others: </label>
+       <input type="text" name="preferences" id="preferences5" placeholder="Write in your subject">
+        <br> <br>
+       <datalist id="key Layout2">
+        <option value="Qwerty">
+        <option value="Qzercy">
+        <option value="Azerty">
+        <option value="Azerf">   
+       </datalist>
+       <br> 
+       <label for="key Layout">Choose Your Keyboard Layout</label>
+       <select name="key Layout" id="key Layout">
+        <option value="Qwerty">Qwerty</option>
+        <option value="Qzercy">Qzercy</option>
+        <option value="Azerty">Azerty</option>
+        <option value="Azerf">Azerf</option> 
+       </select><br>
+       <input type="text" name="" id="" min="2" max="4">
+    </fieldset>
+</body>
+</html>
